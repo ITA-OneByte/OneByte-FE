@@ -1,3 +1,11 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "protocol", "value": "http" }],
+      "destination": "https://classfits.vercel.app/$1",
+      "permanent": true
+    }
+  ]
 }
