@@ -13,8 +13,10 @@ function Landing() {
       navigate('/signin');
     }
   };
+
   return (
     <S.Container>
+      <S.BackgroundCircle />
       <S.Header>
         <S.StyledLogo src={Logo} alt='classfit' />
       </S.Header>

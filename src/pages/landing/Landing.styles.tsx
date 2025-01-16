@@ -1,10 +1,22 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  position: relative; /* 배경 원을 절대 위치로 배치하기 위해 필요 */
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* 화면 전체 높이 사용 */
   background: var(--color-white);
+`;
+
+export const BackgroundCircle = styled.div`
+  position: absolute;
+  bottom: -92%; /* 원을 더 아래로 내림 */
+  right: -25%; /* 오른쪽 위치 조정 */
+  width: 132.6rem; /* 원의 크기 */
+  height: 126.4rem; /* 원의 크기 */
+  border-radius: 50%;
+  background: linear-gradient(180deg, #e4edfe 0%, #8db5ff 100%);
+  z-index: 0; /* 다른 콘텐츠 뒤에 배치 */
 `;
 
 export const Header = styled.header`
@@ -12,6 +24,7 @@ export const Header = styled.header`
   align-items: center;
   padding: 1rem 2rem;
   border-bottom: 1px solid #eaeaea;
+  z-index: 1; /* 배경 원보다 위에 배치 */
 `;
 
 export const StyledLogo = styled.img`
@@ -28,6 +41,7 @@ export const Main = styled.main`
   margin: 0 auto;
   padding: 3rem 2rem;
   padding-left: 10rem;
+  z-index: 1; /* 배경 원보다 위에 배치 */
 `;
 
 export const LeftSection = styled.div`
@@ -39,6 +53,7 @@ export const RightSection = styled.div`
   position: absolute;
   bottom: 0;
   right: 0;
+  z-index: 1; /* 배경 원보다 위에 배치 */
 `;
 
 export const Title1 = styled.h1`
