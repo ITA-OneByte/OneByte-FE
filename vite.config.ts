@@ -1,13 +1,24 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-swc';
-
+import fs from 'fs';
+import mkcert from 'vite-plugin-mkcert';
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), mkcert()],
   build: {
     chunkSizeWarningLimit: 1000, // build 오류 방지
   },
-  base: './',
+  base: '/',
+  server: {
+    https:
+      process.env.VITE_DEVELOPMENT === 'true'
+        ? {
+            // 개발 환경에서만 https 적용
+            key: fs.readFileSync('./localhost-key.pem'),
+            cert: fs.readFileSync('./localhost.pem'),
+          }
+        : undefined,
+  },
   resolve: {
     alias: [
       { find: '@', replacement: '/src' },
