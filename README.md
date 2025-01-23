@@ -1,6 +1,6 @@
 # OneByte-FE
 
-## 주요기능
+## 🔎주요기능
 
 ### 🏫 학원 등록 및 합류 기능
 
@@ -45,20 +45,20 @@
 
 ## 💌 서비스 배포 링크
 
-👉🏻 [Skkudler 바로 사용해보기](https://skkuduler.vercel.app/)
-(https://skkuduler.vercel.app/)
+👉🏻 [Classfit 바로 사용해보기](https://classfit.vercel.app/)
+(https://classfit.vercel.app/)
 
 ## 🔨기술스택
-
-<p  width: 100%>
 ### ✔️ Language & Framework
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">
-<img alt="TypeScript" src ="https://img.shields.io/badge/TypeScript-3178C6.svg?&style=for-the-badge&logo=TypeScript&logoColor=black"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">&nbsp;<img alt="TypeScript" src ="https://img.shields.io/badge/TypeScript-3178C6.svg?&style=for-the-badge&logo=TypeScript&logoColor=black"/>
+
 ### ✔️ Style
-<img alt="styled-components" src ="https://img.shields.io/badge/styled-components-DB7093.svg?&style=for-the-badge&logo=styledcomponents&logoColor=white"/> 
+<img src="https://img.shields.io/badge/styled components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/>
+
 ### ✔️ State management
 <img src="https://img.shields.io/badge/zustand-orange?style=for-the-badge&logo=zustand&logoColor=white">
+
 ### ✔️ Tool
-<img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"> 
-<img src="https://img.shields.io/badge/eslint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white"> 
-<img src="https://img.shields.io/badge/prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white">
+<img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/eslint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white">
+
+
