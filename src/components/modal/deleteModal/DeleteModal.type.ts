@@ -1,4 +1,4 @@
-import { DriveData } from '@/components/layout/drive/driveoption/DriveOption.type';
+import { DriveData } from '@/components/drive/driveoption/DriveOption.type';
 
 export interface DeleteModalProps {
   isOpen: boolean;

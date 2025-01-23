@@ -1,5 +1,5 @@
-import DriveHeader from '@/components/layout/drive/driveheader';
-import DriveOption from '@/components/layout/drive/driveoption';
+import DriveHeader from '@/components/drive/driveheader';
+import DriveOption from '@/components/drive/driveoption';
 import DriveLayout from '@/components/layout/drivelayout';
 
 function Drive() {
